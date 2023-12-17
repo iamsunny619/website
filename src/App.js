@@ -1,7 +1,8 @@
 import React from "react";
+import Error from "./page/Error";
 
 const App = () => {
-  return <h1 className="text-xxl font-bold underline">Hello world!</h1>;
+  return <Error />;
 };
 
 export default App;
