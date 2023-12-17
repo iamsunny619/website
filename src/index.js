@@ -9,5 +9,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// this is a anny brach and will only accept merge from versions branch
