@@ -10,4 +10,4 @@ root.render(
   </React.StrictMode>
 );
 
-// this is a portfolio brach and will only accept merge from anny branch
+// this is a anny brach and will only accept merge from versions branch
