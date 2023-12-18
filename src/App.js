@@ -8,7 +8,7 @@ import Resume from "./page/resume/Resume";
 import Error from "./page/Error";
 import Footer from "./component/footer/Footer";
 import Navbar from "./component/navbar/Navbar";
-
+import "./App.css";
 const App = () => {
   return (
     <div>
