@@ -11,22 +11,19 @@ import Navbar from "./component/navbar/Navbar";
 import "./App.css";
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
+    <>
+      <div className="fullpageAnim primary-background">
+        <section className="page">
+          <Home />
+        </section>
+        <section className="page">
+          <About />
+        </section>
+        <section className="page">
+          <Contact />
+        </section>
       </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </>
   );
 };
 

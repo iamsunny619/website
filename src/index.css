@@ -7,3 +7,48 @@
   --secondary-color: #31304D;
   --text-color: #B6BBC4;
 }
+
+
+/* https://michalsnik.github.io/aos/ */
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hide the side scrollbar */
+body {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+/* Webkit (Chrome, Safari) scrollbar styles */
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+
+.fullpageAnim {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.primary-background{
+  background-color: var(--primary-color);
+}
+
