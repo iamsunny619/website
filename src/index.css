@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply a global reset for consistency */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Use a professional and widely supported font stack */
+  body {
+    font-family: 'Poppins', 'Verdana', 'Cambrian', sans-serif;
+  }
+  
+  /* Hide the scrollbar in all browsers */
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  /* Additional global styles for links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Set a default background color and text color for better readability */
+  body {
+    /* background-color:black; */
+    color:white;
+  }
+  
+  /* Optimize image rendering for better performance */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+  
